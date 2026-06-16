@@ -71,3 +71,7 @@ You must output a modular, cleanly separated project structure across separate p
 - Keep all phrases inside the presentation layer short, punchy, declarative, and highly scannable.
 - Generate valid, production-ready source code blocks. 
 - Ensure relative file paths (`href="style.css"`, `src="script.js"`, `data="m1.svg"`) match perfectly across all code segments.
+
+
+
+https://github.com/hugohe3/ppt-master/tree/main
