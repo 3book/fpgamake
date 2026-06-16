@@ -1,0 +1,73 @@
+# [ROLE]
+You are a Principal Semiconductor Architect, an Automated Test Equipment (ATE) System Engineer, and an Elite Corporate Trainer specializing in making complex hardware intuitive. You possess a masterful command of minimalist technical presentation and modern industrial design.
+
+# [OBJECTIVE]
+Generate the comprehensive source code and asset files for a 1.5 to 2-hour technical literacy slide deck titled: "From Physics to Software: The Silicon Architecture of ATE (Automated Test Equipment)". The core goal is to build a profound baseline understanding of semiconductor computing logic for cross-functional technical teams, completely bypassing tool operations to focus on foundational worldviews.
+
+# [TARGET AUDIENCE]
+- Zero-baseline engineering graduates entering the company.
+- Pure software and cloud engineers who write code but are unfamiliar with silicon hardware.
+- Hardware/PCB engineers who design circuits but lack exposure to digital logic architectures.
+
+# [UNIFIED INDUSTRY THEME: ATE SYSTEM]
+Every single concept, analogy, and real-world example across all modules must exclusively anchor back to an Automated Test Equipment (ATE) System (e.g., testing a high-speed mobile SoC on the manufacturing floor).
+
+# [DELIVERABLE STRUCTURE & ARCHITECTURE]
+You must output a modular, cleanly separated project structure across separate physical files, linking to each other via relative paths in the same workspace directory:
+1. `index.html` — Semantics, structural markup, and slide narrative data.
+2. `style.css` — Standardized typography, modern industrial theme rules, and layout grids.
+3. `script.js` — Lightweight keyboard/click state machine driving presentation state mutations.
+4. Separate SVG Asset Files — `m1.svg`, `m2.svg`, `m3.svg`, `m4.svg`, `m5.svg` located in the same root folder.
+
+---
+
+# [VISUAL & AESTHETIC SYSTEM CONSTRAINTS]
+- **Proportions**: Strict 16:9 widescreen layout grids.
+- **Color Palette Constraint**: Strictly limited to a maximum of 3 colors. Primary background/cards must use cold dark industrial tones (Pure black `#0A0A0A`, deep dark grey `#141414`), pure white text (`#FFFFFF`), and an explicit dark clinical accent red (`#A30000`) applied ONLY to critical data transitions and focal points.
+- **Form & Layout**: Sharp geometric blocks, clean minimalist sans-serif/monospace typography, expansive and highly intentional negative space (whitespace), absolute professional restraint.
+- **Strict Exclusions**: ZERO emojis under any circumstances. ZERO bitmap graphics/external image files.
+- **Diagram Vector Rules**: All external SVG asset files must consist purely of raw `<line>`, `<path>`, `<rect>`, and solid geometric faces. No soft dropshadows, no gradients, no decorative styling.
+
+---
+
+# [SLIDE DECK EVOLUTION CHAIN & CORE CONTENT]
+
+## Slide 1: Initialization & Title Cover
+- Content: Course title, target audience definition, abstract of the semiconductor evolution chain.
+- Theme Backdrop: Introduction of the ATE system context.
+
+## Slide 2: Module 1 — The Physics Interface (ATE Pin Electronics)
+- Concepts: Sensors, analog PMUs, power switches (GaN/IGBT), passives (decoupling capacitors, termination resistors).
+- ATE Context: How an ATE pin electronics board injects a precise high-speed analog voltage pulse into a DUT (Device Under Test) pin, filters high-frequency noise via passives, and switches high power safely.
+- Code Structure: HTML markup linking to external `m1.svg` (Pure line-art signal conditioning block diagram).
+
+## Slide 3: Module 2 — Digital Twin (ATE Digital Channels)
+- Concepts: MOSFET transistors as pure binary switches, V_IH/V_IL thresholds representing 1 and 0, logical AND/OR/NOT gates.
+- ATE Context: How the ATE instrument reads back a raw electrical voltage wave from the DUT, compares it against programmed threshold windows, and maps it into deterministic 0s and 1s using Boolean logic gates.
+- Code Structure: HTML markup linking to external `m2.svg` (Gate-level threshold comparator schematic).
+
+## Slide 4: Module 3 — The Three Mathematical Paradigms (ATE Data Analysis)
+- Concepts: Digital exact computing (Binary matching), Analog computing (In-memory hardware accumulation for wave parametric analysis), Probabilistic computing (Stochastic stream yield estimation).
+- ATE Context: Different mathematical ways the test engineer processes the millions of raw response matrices coming out of the DUT.
+- Code Structure: HTML markup linking to external `m3.svg` (Comparison graph of deterministic vs continuous vs stochastic signal forms).
+
+## Slide 5: Module 4 — Architectural Clash of Kings (The ATE Controller Engine)
+- Concepts: Temporal vs. Spatial computing. CPU vs. GPU vs. FPGA vs. ASIC comparison matrix.
+- ATE Context:
+  - CPU: The main Linux system master controller managing test flow sequences, multi-site databases, and system logs.
+  - GPU: Processing massive visual datasets from wafer prober camera alignments and infrared defect detection.
+  - FPGA: The programmable Pin Electronics engine. Re-configuring internal hardware routing instantly to match different DUT pinouts without rewiring cables. No fixed instruction set.
+  - ASIC: The fixed ultra-high-speed reference driver core handling gigabit test patterns.
+- Code Structure: Standardized horizontal geometric table matrix with heavy typographic restraint.
+
+## Slide 6: Module 5 — The Abstraction Elevator (From Test Script to Silicon Snap)
+- Concepts: High-level test scripts, OS driver scheduling, Instruction Set Architecture (ISA), Machine code execution, physical transistor flipping.
+- ATE Context: Trace the exact vertical cascade from the moment a test engineer clicks "RUN TEST" in a Python IDE down to a single physical pin driver flipping state on the instrument backplane.
+- Code Structure: HTML markup linking to external `m5.svg` (The deep vertical abstraction stack block diagram).
+
+---
+
+# [TECHNICAL INTERPOLATION CODE GENERATION STYLE]
+- Keep all phrases inside the presentation layer short, punchy, declarative, and highly scannable.
+- Generate valid, production-ready source code blocks. 
+- Ensure relative file paths (`href="style.css"`, `src="script.js"`, `data="m1.svg"`) match perfectly across all code segments.
